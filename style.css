@@ -1,0 +1,47 @@
+
+body {
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.title h1 {
+  color: #ff6b6b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#joke-content p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #444;
+}
+
+#answer {
+  font-weight: bold;
+  color: #333;
+}
+
+#generator:hover {
+  background-color: #e55757;
+}
+
+.generator{
+    color: #e55757;
+}
